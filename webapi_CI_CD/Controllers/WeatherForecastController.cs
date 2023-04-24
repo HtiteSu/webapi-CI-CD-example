@@ -18,6 +18,8 @@ namespace webapi_CI_CD.Controllers
             _logger = logger;
         }
 
+
+        //GET WeatherForecast
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
